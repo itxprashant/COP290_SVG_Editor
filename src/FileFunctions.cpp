@@ -2,16 +2,11 @@
 using namespace std;
 
 class File {
-    public:
-        string name;
-        string content;
-
+public:
+  string name;
+  string content;
 };
 
-void OpenFile() {
+void OpenFile() {}
 
-};
-
-void SaveFile() {
-
-};
+void SaveFile() {}
