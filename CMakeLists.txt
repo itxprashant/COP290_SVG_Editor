@@ -12,7 +12,13 @@ find_package(Qt6 REQUIRED COMPONENTS Widgets Gui Core)
 
 include_directories(include)
 
-file(GLOB_RECURSE SOURCES "src/*.cpp")
+set(SOURCES
+    src/Canvas.cpp
+    src/FileFunctions.cpp
+    src/Parser.cpp
+    src/Shape.cpp
+    src/main.cpp
+)
 
 add_executable(${PROJECT_NAME} ${SOURCES})
 
